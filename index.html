@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button id="button1" onclick="chooseButton(event)">Старт</button>
+        <button id="button2" onclick="chooseButton(event)">Подробнее</button>
+    </header>
+    <div class="wrapper">
+        <div class="content button1 active">
+            <h2>Штоль Андрей Евгеньевич</h2>
+            <ul>
+                Навыки:
+                <li>Python</li>
+                <li>C++/С</li>
+                <li>PascalABC</li>
+                <li>недавно начал изучать JavaScript</li>
+                <li>Английский на уровне B2</li>
+            </ul>
+        </div>
+        <div class="content button2">
+            <h2>Подробнее</h2>
+            <p>
+                Изучал языки программирования 
+Python, C++, C, PascalABC, недавно 
+начал изучать JavaScript. Из 
+иностранных знаю Английский на 
+уровне B2. 
+ Учусь в Южно-Уральском Государственном университете по направлению "Прикладная математика и информатика"
+
+            </p>
+            <div id="photoGallery" class="photo-gallery"></div>
+        </div>
+    </div>
+    <footer></footer>        
+    <script src="index.js"></script>
+</body>
+</html>
